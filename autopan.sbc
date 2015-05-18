@@ -25,25 +25,25 @@
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>943</real>
+			<real>882</real>
 			<key>originY</key>
-			<real>72</real>
+			<real>199</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBSub</string>
 			<key>originX</key>
-			<real>946</real>
+			<real>885</real>
 			<key>originY</key>
-			<real>112</real>
+			<real>239</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>846</real>
+			<real>785</real>
 			<key>originY</key>
-			<real>95</real>
+			<real>222</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -54,7 +54,7 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>67</real>
+			<real>68</real>
 			<key>originY</key>
 			<real>299</real>
 			<key>settings</key>
@@ -115,7 +115,7 @@
 				<key>typeOfCell</key>
 				<integer>0</integer>
 				<key>val</key>
-				<real>4.7687859535217285</real>
+				<real>3.7572252750396729</real>
 				<key>wholeNumberOnly</key>
 				<integer>1</integer>
 			</dict>
@@ -167,9 +167,9 @@
 			<key>guiOriginY</key>
 			<real>86</real>
 			<key>originX</key>
-			<real>1296</real>
+			<real>1182</real>
 			<key>originY</key>
-			<real>414</real>
+			<real>394</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
@@ -211,7 +211,7 @@
 				<key>typeOfCell</key>
 				<integer>0</integer>
 				<key>val</key>
-				<real>0.28901731967926025</real>
+				<real>0.54335260391235352</real>
 				<key>wholeNumberOnly</key>
 				<integer>1</integer>
 			</dict>
@@ -239,9 +239,9 @@
 			<key>guiOriginY</key>
 			<real>140</real>
 			<key>originX</key>
-			<real>1226</real>
+			<real>1085</real>
 			<key>originY</key>
-			<real>283</real>
+			<real>137</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
@@ -934,30 +934,59 @@
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>953</real>
+			<real>892</real>
 			<key>originY</key>
-			<real>197</real>
+			<real>324</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBSub</string>
 			<key>originX</key>
-			<real>953</real>
+			<real>892</real>
 			<key>originY</key>
-			<real>238</real>
+			<real>365</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>846</real>
+			<real>785</real>
 			<key>originY</key>
-			<real>185</real>
+			<real>312</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
 				<real>1</real>
 			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>1181</real>
+			<key>originY</key>
+			<real>146</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>1085</real>
+			<key>originY</key>
+			<real>87</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>1178</real>
+			<key>originY</key>
+			<real>91</real>
 		</dict>
 	</array>
 	<key>PresetArray</key>
@@ -1299,14 +1328,6 @@
 			<integer>0</integer>
 			<key>outputElement</key>
 			<integer>14</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>1</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
@@ -1799,14 +1820,6 @@
 			<integer>3</integer>
 		</dict>
 		<dict>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>64</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
 			<key>inputElement</key>
 			<integer>57</integer>
 			<key>inputIndex</key>
@@ -1815,6 +1828,100 @@
 			<integer>10</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>67</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>68</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>67</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>64</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>67</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>12</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+			<key>settings</key>
+			<dict>
+				<key>AnchorsArray</key>
+				<array>
+					<dict>
+						<key>x</key>
+						<real>1147</real>
+						<key>y</key>
+						<real>86</real>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>67</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>67</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
+			<key>outputIndex</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>69</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>68</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>69</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>1</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>69</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>69</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
+			<key>outputIndex</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>author</key>
