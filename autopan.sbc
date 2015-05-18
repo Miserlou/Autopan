@@ -12,9 +12,9 @@
 			<key>guiOriginY</key>
 			<real>339</real>
 			<key>originX</key>
-			<real>69</real>
+			<real>67</real>
 			<key>originY</key>
-			<real>130</real>
+			<real>78</real>
 			<key>settings</key>
 			<dict>
 				<key>curMode</key>
@@ -25,33 +25,25 @@
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>722</real>
+			<real>943</real>
 			<key>originY</key>
-			<real>63</real>
-		</dict>
-		<dict>
-			<key>class</key>
-			<string>SBMul</string>
-			<key>originX</key>
-			<real>774</real>
-			<key>originY</key>
-			<real>174</real>
+			<real>72</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBSub</string>
 			<key>originX</key>
-			<real>772</real>
+			<real>946</real>
 			<key>originY</key>
-			<real>212</real>
+			<real>112</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>675</real>
+			<real>846</real>
 			<key>originY</key>
-			<real>197</real>
+			<real>95</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -62,9 +54,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>64</real>
+			<real>67</real>
 			<key>originY</key>
-			<real>395</real>
+			<real>299</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -79,9 +71,9 @@
 			<key>guiOriginY</key>
 			<real>87</real>
 			<key>originX</key>
-			<real>62</real>
+			<real>85</real>
 			<key>originY</key>
-			<real>222</real>
+			<real>215</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
@@ -123,7 +115,7 @@
 				<key>typeOfCell</key>
 				<integer>0</integer>
 				<key>val</key>
-				<real>4.0462441444396973</real>
+				<real>4.7687859535217285</real>
 				<key>wholeNumberOnly</key>
 				<integer>1</integer>
 			</dict>
@@ -132,33 +124,33 @@
 			<key>class</key>
 			<string>SBSquareWave</string>
 			<key>originX</key>
-			<real>239</real>
+			<real>254</real>
 			<key>originY</key>
-			<real>689</real>
+			<real>222</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBSineWave</string>
 			<key>originX</key>
-			<real>241</real>
+			<real>253</real>
 			<key>originY</key>
-			<real>399</real>
+			<real>110</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBTriangleWave</string>
 			<key>originX</key>
-			<real>238</real>
+			<real>251</real>
 			<key>originY</key>
-			<real>545</real>
+			<real>166</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBEquation</string>
 			<key>originX</key>
-			<real>1072</real>
+			<real>1141</real>
 			<key>originY</key>
-			<real>342</real>
+			<real>531</real>
 			<key>settings</key>
 			<dict>
 				<key>equation</key>
@@ -175,9 +167,9 @@
 			<key>guiOriginY</key>
 			<real>86</real>
 			<key>originX</key>
-			<real>1060</real>
+			<real>1296</real>
 			<key>originY</key>
-			<real>604</real>
+			<real>414</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
@@ -185,7 +177,7 @@
 				<key>argName</key>
 				<string>slider</string>
 				<key>argRealtime</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>cellHeight</key>
 				<integer>90</integer>
 				<key>cellWidth</key>
@@ -211,15 +203,15 @@
 				<key>max</key>
 				<real>1</real>
 				<key>min</key>
-				<real>0.10000000000000001</real>
+				<real>1e-10</real>
 				<key>showsValue</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>type</key>
 				<integer>0</integer>
 				<key>typeOfCell</key>
 				<integer>0</integer>
 				<key>val</key>
-				<real>1</real>
+				<real>0.28901731967926025</real>
 				<key>wholeNumberOnly</key>
 				<integer>1</integer>
 			</dict>
@@ -228,13 +220,13 @@
 			<key>class</key>
 			<string>SBEquation</string>
 			<key>originX</key>
-			<real>1165</real>
+			<real>1135</real>
 			<key>originY</key>
-			<real>438</real>
+			<real>574</real>
 			<key>settings</key>
 			<dict>
 				<key>equation</key>
-				<string>(i0 - (0)) / (i1 - (0))</string>
+				<string>((i1 - 0) * (i0 - 0))/(1 - 0) + 0</string>
 				<key>inputs</key>
 				<integer>2</integer>
 			</dict>
@@ -247,9 +239,9 @@
 			<key>guiOriginY</key>
 			<real>140</real>
 			<key>originX</key>
-			<real>993</real>
+			<real>1226</real>
 			<key>originY</key>
-			<real>73</real>
+			<real>283</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
@@ -283,64 +275,6 @@
 				<integer>0</integer>
 				<key>max</key>
 				<real>1</real>
-				<key>min</key>
-				<real>0.0</real>
-				<key>showsValue</key>
-				<integer>1</integer>
-				<key>type</key>
-				<integer>0</integer>
-				<key>typeOfCell</key>
-				<integer>1</integer>
-				<key>val</key>
-				<real>1</real>
-				<key>wholeNumberOnly</key>
-				<integer>2</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>class</key>
-			<string>SBSlider</string>
-			<key>guiOriginX</key>
-			<real>132</real>
-			<key>guiOriginY</key>
-			<real>414</real>
-			<key>originX</key>
-			<real>220</real>
-			<key>originY</key>
-			<real>183</real>
-			<key>settings</key>
-			<dict>
-				<key>argAverage</key>
-				<real>1</real>
-				<key>argName</key>
-				<string>slider</string>
-				<key>argRealtime</key>
-				<integer>2</integer>
-				<key>cellHeight</key>
-				<integer>15</integer>
-				<key>cellWidth</key>
-				<integer>50</integer>
-				<key>customBackColor</key>
-				<data>
-				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
-				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
-				</data>
-				<key>customContourColor</key>
-				<data>
-				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
-				CE5TT2JqZWN0AIWEAWMBhARmZmZmgx46Oj6DrQoyPoN8
-				0zo+AYY=
-				</data>
-				<key>customFrontColor</key>
-				<data>
-				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
-				CE5TT2JqZWN0AIWEAWMBhARmZmZmgxbyzT4Agy76aDwB
-				hg==
-				</data>
-				<key>mapping</key>
-				<integer>0</integer>
-				<key>max</key>
-				<real>2</real>
 				<key>min</key>
 				<real>0.0</real>
 				<key>showsValue</key>
@@ -359,13 +293,13 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>65</real>
+			<real>66</real>
 			<key>originY</key>
-			<real>437</real>
+			<real>357</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
-				<real>1</real>
+				<real>3.141592693897</real>
 			</dict>
 		</dict>
 		<dict>
@@ -376,19 +310,19 @@
 			<key>guiOriginY</key>
 			<real>203</real>
 			<key>originX</key>
-			<real>1251</real>
+			<real>92</real>
 			<key>originY</key>
-			<real>746</real>
+			<real>128</real>
 			<key>settings</key>
 			<dict>
 				<key>argAverage</key>
 				<real>1</real>
 				<key>argName</key>
-				<string>indexed</string>
+				<string> </string>
 				<key>argRealtime</key>
 				<integer>1</integer>
 				<key>curIndex</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>customBackColor</key>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
@@ -415,8 +349,8 @@
 				<key>values</key>
 				<array>
 					<real>0.0</real>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>1</real>
+					<real>2</real>
 				</array>
 			</dict>
 		</dict>
@@ -424,70 +358,70 @@
 			<key>class</key>
 			<string>SBAdd</string>
 			<key>originX</key>
-			<real>806</real>
+			<real>898</real>
 			<key>originY</key>
-			<real>314</real>
+			<real>519</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBAdd</string>
 			<key>originX</key>
-			<real>806</real>
+			<real>898</real>
 			<key>originY</key>
-			<real>363</real>
+			<real>568</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBAdd</string>
 			<key>originX</key>
-			<real>912</real>
+			<real>1004</real>
+			<key>originY</key>
+			<real>547</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>479</real>
+			<key>originY</key>
+			<real>82</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>481</real>
+			<key>originY</key>
+			<real>213</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>485</real>
 			<key>originY</key>
 			<real>342</real>
 		</dict>
 		<dict>
 			<key>class</key>
-			<string>SBEqual</string>
+			<string>SBConstant</string>
 			<key>originX</key>
-			<real>514</real>
+			<real>373</real>
 			<key>originY</key>
-			<real>377</real>
-		</dict>
-		<dict>
-			<key>class</key>
-			<string>SBEqual</string>
-			<key>originX</key>
-			<real>514</real>
-			<key>originY</key>
-			<real>563</real>
-		</dict>
-		<dict>
-			<key>class</key>
-			<string>SBEqual</string>
-			<key>originX</key>
-			<real>526</real>
-			<key>originY</key>
-			<real>760</real>
+			<real>38</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>0.0</real>
+			</dict>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>399</real>
-			<key>originY</key>
 			<real>370</real>
-			<key>settings</key>
-			<dict>
-				<key>val</key>
-				<real>0.0</real>
-			</dict>
-		</dict>
-		<dict>
-			<key>class</key>
-			<string>SBConstant</string>
-			<key>originX</key>
-			<real>400</real>
 			<key>originY</key>
-			<real>409</real>
+			<real>78</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -498,9 +432,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>414</real>
+			<real>381</real>
 			<key>originY</key>
-			<real>509</real>
+			<real>159</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -511,9 +445,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>412</real>
+			<real>379</real>
 			<key>originY</key>
-			<real>557</real>
+			<real>207</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -524,9 +458,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>415</real>
+			<real>374</real>
 			<key>originY</key>
-			<real>698</real>
+			<real>280</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -537,9 +471,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>414</real>
+			<real>373</real>
 			<key>originY</key>
-			<real>740</real>
+			<real>322</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -550,9 +484,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>413</real>
+			<real>372</real>
 			<key>originY</key>
-			<real>784</real>
+			<real>366</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -563,9 +497,9 @@
 			<key>class</key>
 			<string>SBConstant</string>
 			<key>originX</key>
-			<real>701</real>
+			<real>800</real>
 			<key>originY</key>
-			<real>279</real>
+			<real>527</real>
 			<key>settings</key>
 			<dict>
 				<key>val</key>
@@ -576,25 +510,25 @@
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>525</real>
+			<real>484</real>
 			<key>originY</key>
-			<real>697</real>
+			<real>279</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>518</real>
+			<real>485</real>
 			<key>originY</key>
-			<real>489</real>
+			<real>139</real>
 		</dict>
 		<dict>
 			<key>class</key>
 			<string>SBMul</string>
 			<key>originX</key>
-			<real>516</real>
+			<real>483</real>
 			<key>originY</key>
-			<real>319</real>
+			<real>22</real>
 		</dict>
 		<dict>
 			<key>class</key>
@@ -604,9 +538,257 @@
 			<key>guiOriginY</key>
 			<real>100</real>
 			<key>originX</key>
+			<real>580</real>
+			<key>originY</key>
+			<real>342</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>577</real>
+			<key>originY</key>
+			<real>217</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>580</real>
+			<key>originY</key>
+			<real>77</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>1274</real>
+			<key>originY</key>
+			<real>571</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>1276</real>
+			<key>originY</key>
+			<real>529</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBSquareWave</string>
+			<key>originX</key>
+			<real>247</real>
+			<key>originY</key>
+			<real>570</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBSineWave</string>
+			<key>originX</key>
+			<real>246</real>
+			<key>originY</key>
+			<real>458</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBTriangleWave</string>
+			<key>originX</key>
+			<real>244</real>
+			<key>originY</key>
+			<real>514</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>484</real>
+			<key>originY</key>
+			<real>496</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>486</real>
+			<key>originY</key>
+			<real>627</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEqual</string>
+			<key>originX</key>
+			<real>490</real>
+			<key>originY</key>
+			<real>756</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>378</real>
+			<key>originY</key>
+			<real>452</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>375</real>
+			<key>originY</key>
+			<real>492</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>386</real>
+			<key>originY</key>
+			<real>573</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>384</real>
+			<key>originY</key>
 			<real>621</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>379</real>
 			<key>originY</key>
-			<real>760</real>
+			<real>694</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>2</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>378</real>
+			<key>originY</key>
+			<real>736</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>377</real>
+			<key>originY</key>
+			<real>780</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBMul</string>
+			<key>originX</key>
+			<real>489</real>
+			<key>originY</key>
+			<real>693</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBMul</string>
+			<key>originX</key>
+			<real>490</real>
+			<key>originY</key>
+			<real>553</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBMul</string>
+			<key>originX</key>
+			<real>488</real>
+			<key>originY</key>
+			<real>436</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>585</real>
+			<key>originY</key>
+			<real>756</real>
 			<key>settings</key>
 			<dict>
 				<key>argName</key>
@@ -621,9 +803,9 @@
 			<key>guiOriginY</key>
 			<real>100</real>
 			<key>originX</key>
-			<real>610</real>
+			<real>582</real>
 			<key>originY</key>
-			<real>567</real>
+			<real>631</real>
 			<key>settings</key>
 			<dict>
 				<key>argName</key>
@@ -638,13 +820,143 @@
 			<key>guiOriginY</key>
 			<real>100</real>
 			<key>originX</key>
-			<real>606</real>
+			<real>585</real>
 			<key>originY</key>
-			<real>381</real>
+			<real>491</real>
 			<key>settings</key>
 			<dict>
 				<key>argName</key>
 				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEquation</string>
+			<key>originX</key>
+			<real>1143</real>
+			<key>originY</key>
+			<real>652</real>
+			<key>settings</key>
+			<dict>
+				<key>equation</key>
+				<string>(i0 - (-1)) / (1 - (-1))</string>
+				<key>inputs</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBEquation</string>
+			<key>originX</key>
+			<real>1143</real>
+			<key>originY</key>
+			<real>692</real>
+			<key>settings</key>
+			<dict>
+				<key>equation</key>
+				<string>((i1 - 0) * (i0 - 0))/(1 - 0) + 0</string>
+				<key>inputs</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBAdd</string>
+			<key>originX</key>
+			<real>900</real>
+			<key>originY</key>
+			<real>640</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBAdd</string>
+			<key>originX</key>
+			<real>900</real>
+			<key>originY</key>
+			<real>689</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBAdd</string>
+			<key>originX</key>
+			<real>1006</real>
+			<key>originY</key>
+			<real>668</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>802</real>
+			<key>originY</key>
+			<real>648</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>1276</real>
+			<key>originY</key>
+			<real>692</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBDisplayValue</string>
+			<key>guiOriginX</key>
+			<real>100</real>
+			<key>guiOriginY</key>
+			<real>100</real>
+			<key>originX</key>
+			<real>1275</real>
+			<key>originY</key>
+			<real>651</real>
+			<key>settings</key>
+			<dict>
+				<key>argName</key>
+				<string>dis val</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBMul</string>
+			<key>originX</key>
+			<real>953</real>
+			<key>originY</key>
+			<real>197</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBSub</string>
+			<key>originX</key>
+			<real>953</real>
+			<key>originY</key>
+			<real>238</real>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>SBConstant</string>
+			<key>originX</key>
+			<real>846</real>
+			<key>originY</key>
+			<real>185</real>
+			<key>settings</key>
+			<dict>
+				<key>val</key>
+				<real>1</real>
 			</dict>
 		</dict>
 	</array>
@@ -653,14 +965,8 @@
 	<key>WireArray</key>
 	<array>
 		<dict>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
+			<key>inputElement</key>
 			<integer>1</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
 			<key>inputIndex</key>
 			<integer>1</integer>
 			<key>outputElement</key>
@@ -672,7 +978,7 @@
 			<key>inputElement</key>
 			<integer>2</integer>
 			<key>inputIndex</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>outputElement</key>
 			<integer>3</integer>
 			<key>outputIndex</key>
@@ -680,9 +986,17 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>3</integer>
+			<integer>1</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
+			<key>outputIndex</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>6</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>4</integer>
 			<key>outputIndex</key>
@@ -690,49 +1004,9 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>2</integer>
+			<integer>6</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
-			<key>outputIndex</key>
-			<integer>2</integer>
-			<key>settings</key>
-			<dict>
-				<key>AnchorsArray</key>
-				<array>
-					<dict>
-						<key>x</key>
-						<real>481</real>
-						<key>y</key>
-						<real>115</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>1</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputIndex</key>
-			<integer>3</integer>
-			<key>settings</key>
-			<dict>
-				<key>AnchorsArray</key>
-				<array>
-					<dict>
-						<key>x</key>
-						<real>324</real>
-						<key>y</key>
-						<real>49</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>7</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>5</integer>
 			<key>outputIndex</key>
@@ -744,7 +1018,17 @@
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>6</integer>
+			<integer>5</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>8</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>4</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
@@ -754,83 +1038,43 @@
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>6</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>9</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
 			<integer>5</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>9</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>6</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>3</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>10</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>1</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>10</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>12</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
 			<integer>11</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>12</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>10</integer>
+			<integer>9</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>19</integer>
+			<integer>17</integer>
 			<key>inputIndex</key>
 			<integer>1</integer>
 			<key>outputElement</key>
-			<integer>18</integer>
+			<integer>16</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>19</integer>
+			<integer>17</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>15</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>9</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
@@ -840,67 +1084,37 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>10</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>19</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>20</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>14</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>21</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>14</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>22</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>14</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>20</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>23</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>20</integer>
+			<integer>18</integer>
 			<key>inputIndex</key>
 			<integer>3</integer>
 			<key>outputElement</key>
-			<integer>23</integer>
+			<integer>21</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>20</integer>
+			<integer>18</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>22</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>19</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>24</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>19</integer>
 			<key>inputIndex</key>
 			<integer>2</integer>
 			<key>outputElement</key>
@@ -910,29 +1124,19 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>21</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>26</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>21</integer>
-			<key>inputIndex</key>
-			<integer>2</integer>
-			<key>outputElement</key>
-			<integer>26</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>21</integer>
+			<integer>19</integer>
 			<key>inputIndex</key>
 			<integer>3</integer>
+			<key>outputElement</key>
+			<integer>23</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>20</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>25</integer>
 			<key>outputIndex</key>
@@ -940,9 +1144,19 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>22</integer>
+			<integer>20</integer>
 			<key>inputIndex</key>
-			<integer>1</integer>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>26</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>20</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
 			<key>outputElement</key>
 			<integer>27</integer>
 			<key>outputIndex</key>
@@ -950,9 +1164,9 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>22</integer>
+			<integer>15</integer>
 			<key>inputIndex</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>28</integer>
 			<key>outputIndex</key>
@@ -960,9 +1174,29 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>22</integer>
+			<integer>29</integer>
 			<key>inputIndex</key>
-			<integer>3</integer>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>6</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>29</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>20</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>16</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>29</integer>
 			<key>outputIndex</key>
@@ -970,11 +1204,41 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>17</integer>
+			<integer>30</integer>
 			<key>inputIndex</key>
 			<integer>1</integer>
 			<key>outputElement</key>
+			<integer>19</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
 			<integer>30</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>8</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>16</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>30</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>31</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>18</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
@@ -990,19 +1254,9 @@
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>31</integer>
+			<integer>15</integer>
 			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>22</integer>
-			<key>outputIndex</key>
 			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>18</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>31</integer>
 			<key>outputIndex</key>
@@ -1012,37 +1266,7 @@
 			<key>inputElement</key>
 			<integer>32</integer>
 			<key>inputIndex</key>
-			<integer>1</integer>
-			<key>outputElement</key>
-			<integer>21</integer>
-			<key>outputIndex</key>
 			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>32</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>9</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>18</integer>
-			<key>inputIndex</key>
-			<integer>0</integer>
-			<key>outputElement</key>
-			<integer>32</integer>
-			<key>outputIndex</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>inputElement</key>
-			<integer>33</integer>
-			<key>inputIndex</key>
-			<integer>1</integer>
 			<key>outputElement</key>
 			<integer>20</integer>
 			<key>outputIndex</key>
@@ -1054,27 +1278,65 @@
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>8</integer>
+			<integer>19</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>17</integer>
+			<integer>19</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>33</integer>
+			<integer>14</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>inputElement</key>
-			<integer>34</integer>
+			<integer>20</integer>
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>22</integer>
+			<integer>14</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>1</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>7</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>4</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>18</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>14</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>18</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>21</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
@@ -1084,7 +1346,7 @@
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>21</integer>
+			<integer>11</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
@@ -1094,7 +1356,463 @@
 			<key>inputIndex</key>
 			<integer>0</integer>
 			<key>outputElement</key>
-			<integer>20</integer>
+			<integer>9</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>11</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>10</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>2</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>11</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>34</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>18</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>40</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
+			<key>outputElement</key>
+			<integer>43</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>40</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>44</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>41</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>46</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>41</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>46</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>41</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
+			<key>outputElement</key>
+			<integer>45</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>42</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>47</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>42</integer>
+			<key>inputIndex</key>
+			<integer>2</integer>
+			<key>outputElement</key>
+			<integer>48</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>42</integer>
+			<key>inputIndex</key>
+			<integer>3</integer>
+			<key>outputElement</key>
+			<integer>49</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>50</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>37</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>50</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>42</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>51</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>41</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>51</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>39</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>52</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>40</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>52</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>38</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>54</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>41</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>40</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>43</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>55</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>40</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>53</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>42</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>40</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>14</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>41</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>14</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>42</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>14</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>38</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>5</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>39</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>5</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>37</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>5</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>38</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>13</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>39</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>13</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>37</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>13</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>57</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>56</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>60</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>59</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>60</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>58</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>56</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>60</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>58</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>61</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>62</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>57</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>63</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>56</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>58</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>52</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>59</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>51</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>59</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>50</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>64</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>65</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>65</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputElement</key>
+			<integer>66</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>65</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>57</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>64</integer>
+			<key>inputIndex</key>
+			<integer>0</integer>
+			<key>outputIndex</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>64</integer>
+			<key>outputIndex</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>inputElement</key>
+			<integer>57</integer>
+			<key>inputIndex</key>
+			<integer>1</integer>
+			<key>outputElement</key>
+			<integer>10</integer>
 			<key>outputIndex</key>
 			<integer>0</integer>
 		</dict>
