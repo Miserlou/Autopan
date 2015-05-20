@@ -67,9 +67,9 @@
 			<key>class</key>
 			<string>SBSlider</string>
 			<key>guiOriginX</key>
-			<real>322</real>
+			<real>327</real>
 			<key>guiOriginY</key>
-			<real>87</real>
+			<real>80</real>
 			<key>originX</key>
 			<real>85</real>
 			<key>originY</key>
@@ -163,9 +163,9 @@
 			<key>class</key>
 			<string>SBSlider</string>
 			<key>guiOriginX</key>
-			<real>498</real>
+			<real>487</real>
 			<key>guiOriginY</key>
-			<real>86</real>
+			<real>78</real>
 			<key>originX</key>
 			<real>1182</real>
 			<key>originY</key>
@@ -205,13 +205,13 @@
 				<key>min</key>
 				<real>1e-10</real>
 				<key>showsValue</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>type</key>
 				<integer>0</integer>
 				<key>typeOfCell</key>
 				<integer>0</integer>
 				<key>val</key>
-				<real>0.54335260391235352</real>
+				<real>1</real>
 				<key>wholeNumberOnly</key>
 				<integer>1</integer>
 			</dict>
@@ -235,9 +235,9 @@
 			<key>class</key>
 			<string>SBSlider</string>
 			<key>guiOriginX</key>
-			<real>185</real>
+			<real>177</real>
 			<key>guiOriginY</key>
-			<real>140</real>
+			<real>141</real>
 			<key>originX</key>
 			<real>1085</real>
 			<key>originY</key>
@@ -253,7 +253,7 @@
 				<key>cellHeight</key>
 				<integer>15</integer>
 				<key>cellWidth</key>
-				<integer>50</integer>
+				<integer>80</integer>
 				<key>customBackColor</key>
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
@@ -534,9 +534,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>103</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>377</real>
 			<key>originX</key>
 			<real>580</real>
 			<key>originY</key>
@@ -551,9 +551,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>107</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>456</real>
 			<key>originX</key>
 			<real>577</real>
 			<key>originY</key>
@@ -568,9 +568,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>101</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>392</real>
 			<key>originX</key>
 			<real>580</real>
 			<key>originY</key>
@@ -587,7 +587,7 @@
 			<key>guiOriginX</key>
 			<real>100</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>334</real>
 			<key>originX</key>
 			<real>1274</real>
 			<key>originY</key>
@@ -602,9 +602,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>108</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>542</real>
 			<key>originX</key>
 			<real>1276</real>
 			<key>originY</key>
@@ -782,9 +782,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>108</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>431</real>
 			<key>originX</key>
 			<real>585</real>
 			<key>originY</key>
@@ -799,9 +799,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>106</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>392</real>
 			<key>originX</key>
 			<real>582</real>
 			<key>originY</key>
@@ -816,9 +816,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>107</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>433</real>
 			<key>originX</key>
 			<real>585</real>
 			<key>originY</key>
@@ -900,9 +900,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>111</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>383</real>
 			<key>originX</key>
 			<real>1276</real>
 			<key>originY</key>
@@ -917,9 +917,9 @@
 			<key>class</key>
 			<string>SBDisplayValue</string>
 			<key>guiOriginX</key>
-			<real>100</real>
+			<real>199</real>
 			<key>guiOriginY</key>
-			<real>100</real>
+			<real>389</real>
 			<key>originX</key>
 			<real>1275</real>
 			<key>originY</key>
@@ -1950,7 +1950,7 @@
 	<key>guiHeight</key>
 	<integer>300</integer>
 	<key>guiMode</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>guiWidth</key>
 	<integer>700</integer>
 	<key>hasCustomGui</key>
